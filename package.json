@@ -1,0 +1,12 @@
+{
+  "name": "calculator-ci-demo",
+  "version": "1.0.0",
+  "description": "Простой калькулятор для демонстрации CI",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
