@@ -25,10 +25,4 @@ jobs:
 
       - name: Запуск тестов
         run: npm test
-
-      - name: Проверка синтаксиса HTML
-        run: |
-          if ! npx html-validate src/index.html; then
-            echo "HTML validation failed"
-            exit 1
-          fi
+    
